@@ -9,4 +9,3 @@ fun main(args : Array<String>){
     var num4 : Float = num3.toFloat()
     println("num3 = $num3")  // integer type
     println("num4 = $num4")  // float type
-}
