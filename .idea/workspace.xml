@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conditional_statements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin-Basics/META-INF/Kotlin-Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin-Basics/META-INF/Kotlin-Basics.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/type_casting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/type_casting.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/conditional_statements.kt">
+        <entry file="file://$PROJECT_DIR$/src/array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -48,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/logical_operators.kt" />
         <option value="$PROJECT_DIR$/src/type_casting.kt" />
         <option value="$PROJECT_DIR$/src/conditional_statements.kt" />
+        <option value="$PROJECT_DIR$/src/array.kt" />
       </list>
     </option>
   </component>
@@ -82,7 +81,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557132240333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557133485808" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -97,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Conditional_statementsKt">
+  <component name="RunManager" selected="Kotlin.Library_arrayKt">
     <configuration name="Conditional_statementsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -111,14 +110,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatatypeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Library_arrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DatatypeKt" />
+      <option name="MAIN_CLASS_NAME" value="Library_arrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Library_arrayKt" />
         <item itemvalue="Kotlin.Conditional_statementsKt" />
         <item itemvalue="Kotlin.Logical_operatorsKt" />
         <item itemvalue="Kotlin.User_inputKt" />
         <item itemvalue="Kotlin.Type_castingKt" />
-        <item itemvalue="Kotlin.OperatorsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -276,8 +275,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/conditional_statements.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="122">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
