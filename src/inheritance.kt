@@ -6,6 +6,8 @@ open class Person(age : Int){  //open class can be inherited
     open fun think(){ //open function can be overridden
         println("Person is thinking something")
     }
+
+    open fun getName() {}
 }
 
 class Computer(age : Int) : Person(21){
