@@ -7,11 +7,14 @@ fun main(args : Array<String>){
 
     //call()
 
-    var number = 4
+    /*var number = 4
     var result : Long
 
     result = factorial(number)
-    println("Factorial of $number = $result")
+    println("Factorial of $number = $result")*/
+
+    var number = 10
+    println("Factorial of $number = ${factorial(number)}")
 }
 
 /*
@@ -29,9 +32,15 @@ fun call(){
 }
 */
 
-fun factorial(n : Int) : Long{
+/*fun factorial(n : Int) : Long{
     return if(n == 1) n.toLong()
-    else n*factorial(n-1)
+    else n*factorial(n-1)  //4*3!
+}*/
+
+//tail recursive function
+tailrec fun factorial(n : Int, run : Int = 1) : Long{
+    return if(n == 1) run.toLong()
+    else factorial(n-1, run*n)
 }
 
 
