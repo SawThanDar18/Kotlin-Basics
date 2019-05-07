@@ -8,6 +8,7 @@ class Doctor : Human(){
     override fun getName(){
 
     }
+    
     override var name : String = "HumanName"
 }
 fun main(args : Array<String>){
