@@ -3,7 +3,6 @@ abstract class Human{
     abstract fun getName()
     open fun getAge() {}
 }
-
 class Doctor : Human(){
     override fun getName(){
 
