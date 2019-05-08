@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/example4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example2.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/example2.kt">
+        <entry file="file://$PROJECT_DIR$/src/example4.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/eg2.kt" />
         <option value="$PROJECT_DIR$/src/example3.kt" />
         <option value="$PROJECT_DIR$/src/example2.kt" />
+        <option value="$PROJECT_DIR$/src/example4.kt" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557283565050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557284685277" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -108,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Example2Kt">
+  <component name="RunManager" selected="Kotlin.Example4Kt">
     <configuration name="AbstractKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -161,6 +162,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Example4Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -176,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Example4Kt" />
         <item itemvalue="Kotlin.Example2Kt" />
         <item itemvalue="Kotlin.Example3Kt" />
         <item itemvalue="Kotlin.Example2Kt" />
         <item itemvalue="Kotlin.AbstractKt" />
-        <item itemvalue="Kotlin.InheritanceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -339,6 +353,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
