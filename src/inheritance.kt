@@ -19,7 +19,6 @@ class Computer(age : Int) : Person(21){
         println("Computer is calculating something")
     }
 }
-
 fun main(args : Array<String>){
     var mark = Computer(21)
     //mark.think()
