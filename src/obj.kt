@@ -1,5 +1,5 @@
 fun main(args : Array<String>){
-
+    
     var lamp1 = Lamp()
     var lamp2 = Lamp()
 
