@@ -11,7 +11,6 @@ open class Person(age : Int){  //open class can be inherited
 }
 
 class Computer(age : Int) : Person(21){
-
     init {
         println("in computer $age")
     }
@@ -19,7 +18,6 @@ class Computer(age : Int) : Person(21){
         println("Computer is calculating something")
     }
 }
-
 fun main(args : Array<String>){
     var mark = Computer(21)
     //mark.think()
