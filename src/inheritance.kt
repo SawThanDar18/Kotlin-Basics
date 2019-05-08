@@ -11,7 +11,6 @@ open class Person(age : Int){  //open class can be inherited
 }
 
 class Computer(age : Int) : Person(21){
-
     init {
         println("in computer $age")
     }
