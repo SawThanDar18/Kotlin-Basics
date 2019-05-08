@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/example2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/example2.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example2.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+            <state relative-caret-position="244">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -94,7 +93,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557283472516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557283565050" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -202,7 +201,7 @@
     <frame x="680" y="11" width="657" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10720268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44556114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,8 +337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        <state relative-caret-position="244">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
         </state>
       </provider>
     </entry>
