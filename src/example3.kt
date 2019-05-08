@@ -5,7 +5,6 @@ class Outer{
         val b = "Nested class"
 fun callMe() = "call me function"
 }*/
-
     //inner class can retrieve data from outer class
     inner class Nested{  //nested class allows to define class within another class
         val b = "Nested class"
