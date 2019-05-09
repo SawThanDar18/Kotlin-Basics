@@ -14,7 +14,7 @@ fun main(args : Array<String>){
     for(item in arrayList){
         println(item)
     }
-
+    
     println("all element by index")
     for(index in 0..arrayList.size-1){  // 0 to 3
         println(arrayList.get(index))
