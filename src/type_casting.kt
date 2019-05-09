@@ -1,5 +1,5 @@
 fun main(args : Array<String>) {
-
+    
     var num1: Int = 10
     var num2: Double = num1.toDouble()
     println("num1 = $num1")  // integer type
