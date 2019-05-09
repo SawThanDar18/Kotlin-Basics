@@ -12,7 +12,7 @@ fun main(args : Array<String>){
 
     //replace
     map.set(43,"juicy")  //can use put instead of set
-
+    
     for(k in map.keys){
         println(map.get(k))
     }
