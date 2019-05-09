@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array_list.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin-Basics/META-INF/Kotlin-Basics.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin-Basics/META-INF/Kotlin-Basics.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array_list.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_list.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash_map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash_map.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array_list.kt">
+        <entry file="file://$PROJECT_DIR$/src/map.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -62,6 +65,8 @@
         <option value="$PROJECT_DIR$/src/string.kt" />
         <option value="$PROJECT_DIR$/src/one_dime_array.kt" />
         <option value="$PROJECT_DIR$/src/array_list.kt" />
+        <option value="$PROJECT_DIR$/src/hash_map.kt" />
+        <option value="$PROJECT_DIR$/src/map.kt" />
       </list>
     </option>
   </component>
@@ -97,7 +102,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557374488499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557375966743" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -112,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Array_listKt">
+  <component name="RunManager" selected="Kotlin.Mutable_listKt">
     <configuration name="Array_listKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -139,27 +144,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Hash_mapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Example2Kt" />
+      <option name="MAIN_CLASS_NAME" value="Hash_mapKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="MapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Example4Kt" />
+      <option name="MAIN_CLASS_NAME" value="MapKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mutable_listKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Mutable_listKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,26 +196,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin-Basics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="StringKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Mutable_listKt" />
+        <item itemvalue="Kotlin.MapKt" />
+        <item itemvalue="Kotlin.Hash_mapKt" />
         <item itemvalue="Kotlin.Array_listKt" />
         <item itemvalue="Kotlin.One_dime_arrayKt" />
-        <item itemvalue="Kotlin.StringKt" />
-        <item itemvalue="Kotlin.Example4Kt" />
-        <item itemvalue="Kotlin.Example2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -382,8 +387,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array_list.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="476">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hash_map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
