@@ -43,7 +43,7 @@ fun main(args : Array<String>){
     var operation2 = MultiOperations()
     var sub = operation2.sub(2,3)
     println("sub : $sub")
-
+     
     var mul = operation2.mul(3,4)
     println("mul : $mul")
 }
