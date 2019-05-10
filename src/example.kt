@@ -13,5 +13,3 @@ fun main(args : Array<String>){
     else
         println(name)
 }
-
-
