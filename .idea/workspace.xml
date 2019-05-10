@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/enumeration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/enumeration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/enumeration.kt">
+        <entry file="file://$PROJECT_DIR$/src/generic.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="215">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -73,10 +74,12 @@
         <option value="$PROJECT_DIR$/src/example.kt" />
         <option value="$PROJECT_DIR$/src/class_interface.kt" />
         <option value="$PROJECT_DIR$/src/enumeration.kt" />
+        <option value="$PROJECT_DIR$/src/enum.kt" />
+        <option value="$PROJECT_DIR$/src/generic.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="680" />
     <option name="y" value="11" />
     <option name="width" value="657" />
@@ -108,7 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557473611217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557475541074" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -123,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.EnumKt">
+  <component name="RunManager" selected="Kotlin.GenericKt">
     <configuration name="EnumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -163,6 +166,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin-Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="GenericKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OverridingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -176,26 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Visibility_modifiersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin-Basics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Visibility_modifiersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GenericKt" />
         <item itemvalue="Kotlin.EnumKt" />
         <item itemvalue="Kotlin.EnumerationKt" />
         <item itemvalue="Kotlin.ExampleKt" />
         <item itemvalue="Kotlin.OverridingKt" />
-        <item itemvalue="Kotlin.Visibility_modifiersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -450,9 +453,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/enumeration.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="150">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generic.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
