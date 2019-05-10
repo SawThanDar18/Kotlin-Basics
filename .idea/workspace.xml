@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6553e88-63e9-4c48-82da-97505c30cbf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/generic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic_type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic_type.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/generic.kt">
+        <entry file="file://$PROJECT_DIR$/src/extensions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -75,13 +77,15 @@
         <option value="$PROJECT_DIR$/src/enumeration.kt" />
         <option value="$PROJECT_DIR$/src/enum.kt" />
         <option value="$PROJECT_DIR$/src/generic.kt" />
+        <option value="$PROJECT_DIR$/src/generic_type.kt" />
+        <option value="$PROJECT_DIR$/src/extensions.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="680" />
     <option name="y" value="11" />
-    <option name="width" value="657" />
+    <option name="width" value="689" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectView">
@@ -110,7 +114,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557476114545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557480469154" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -125,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Generic_typeKt">
+  <component name="RunManager" selected="Kotlin.ExtensionsKt">
     <configuration name="EnumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
@@ -152,14 +156,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtensionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin-Basics" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.Generic_typeKt" />
         <item itemvalue="Kotlin.GenericKt" />
         <item itemvalue="Kotlin.EnumKt" />
         <item itemvalue="Kotlin.EnumerationKt" />
-        <item itemvalue="Kotlin.ExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +219,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="680" y="11" width="689" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1891892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,7 +231,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09819967" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09803922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,7 +239,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32352942" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32242227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,9 +466,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generic.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generic_type.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
